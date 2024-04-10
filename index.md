@@ -1,4 +1,4 @@
-
+# Commands With No Arguments <br>
 
 I got this output because this command with no dirctory listed takes me to back to the start of directories. There was no error. <br>
 ![Image](imagecd1)
@@ -9,6 +9,8 @@ I got this output because this command with no dirctory listed takes me to back 
 <br>I got this output because there was there was no content to display since there was no file or directory given. I needed to cancel the command resulting in an error.<br> 
 ![Image](imagecat1)
 
+# Commands With Directory Arguments <br>
+
 <br>I got this output because I changed my directory to lecture1 resulting in my path changing. There was no error.<br> 
 ![Image](imagecd2)
 
@@ -17,6 +19,8 @@ I got this output because this command with no dirctory listed takes me to back 
 
 <br>I got this output because it is displaying what my input was, which is a directory. There was no error.<br> 
 ![Image](imagecat2)
+
+# Commands With File Arguments <br>
 
 <br>I got an error for my output because you can only change directories to other directories, not files.<br> 
 ![Image](imagecd3)
