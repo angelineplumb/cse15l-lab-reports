@@ -94,6 +94,9 @@ public class ChatServer {
     }
 }
 ```
+# ChatServer Output <br>
+![Image](message1.png) <br>
+![Image](message2.png) <br>
 
 
 
