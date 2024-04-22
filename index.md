@@ -62,4 +62,5 @@ public class ChatServer {
 ```
 # ChatServer Output <br>
 ![Image](message1.png) <br>
+My handleRequest method was called to produce this output. The relevant arguements to this method is `URI url` which gets the url that was inputted. In this case `URI = 'localhost:4000/add-message?s=What%27s%20up!&user=angie'`. My code then takes this input and splits it with characters '=' and '&' so that we can separate the message from the username. This is stored in the `String chat[]` variable. The array contains the following after add-message is used: `chat["s", "What's up!", "user", "angie"]`. I have set up two arrays `String message[]` and `String user[]` that will contain all messages that have been inputed with their corresponding users. I then created a `String update` variable that will contain both the user and the message in the proper format. 
 ![Image](message2.png) <br>
