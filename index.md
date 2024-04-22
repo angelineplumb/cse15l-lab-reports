@@ -62,5 +62,9 @@ public class ChatServer {
 ```
 # ChatServer Output <br>
 ![Image](message1.png) <br>
-My handleRequest method was called to produce this output. The relevant arguements to this method is `URI url` which gets the url that was inputted. In this case `URI = 'localhost:4000/add-message?s=What%27s%20up!&user=angie'`. My code then takes this input and splits it with characters '=' and '&' so that we can separate the message from the username. This is stored in the `String chat[]` variable. The array contains the following after add-message is used: `chat["s", "What's up!", "user", "angie"]`. I have set up two arrays `String message[]` and `String user[]` that will contain all messages that have been inputed with their corresponding users. I then created a `String update` variable that will contain both the user and the message in the proper format. 
+My handleRequest method was called to produce this output. The relevant arguements to this method is `URI url` which gets the url that was inputted. In this case `URI = 'localhost:4000/add-message?s=What%27s%20up!&user=angie'`. My code then takes this input and splits it with characters '=' and '&' so that we can separate the message from the username. This is stored in the `String chat[]` variable. The array contains the following after add-message is used: `chat["s", "What's up!", "user", "angie"]`. I have set up two arrays `String message[]` and `String user[]` that will contain all messages that have been inputed with their corresponding users. The values of these arrays are as follows: `message = ['What's up!']` and `user = ['angie']`. I then created a `String update` variable that will contain both the user and the message in the proper format. <br>
+
 ![Image](message2.png) <br>
+My handleRequest method was again called to produce this output. The relevant arguements to this method is `URI url` and in this case `URI = 'localhost:4000/add-message?s=The%20sky&user=j813'`. The `String chat[]` variable is updated to `chat["s", "The sky", "user", "j813"]`. The values of the message and user arrays were updated as follows: `message = ['What's up!', 'The sky']` and `user = ['angie', 'j813]`. 
+
+
