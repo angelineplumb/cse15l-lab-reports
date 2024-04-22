@@ -42,6 +42,7 @@ I got this output because this command with no dirctory listed takes me to back 
 <br>I got this output because 'Hello World!' is the content of the given file. There was no error.<br> 
 <br>Absolute path to working directory: /workspaces/lecture1/messages <br>
 ![Image](imagecat3)
+<br>
 <!--
 # Code for ChatServer.java <br>
 
