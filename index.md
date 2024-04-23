@@ -77,5 +77,9 @@ My handleRequest method was again called to produce this output. The relevant ar
 ## Login with no password <br>
 ![Image](login.png) <br>
 
+# Part 3 <br>
+
+Before lab 2, I never new the way that urls worked. I always saw equal signs and question marks as a part of the link and thought that they were random characters, but now I know that they are used to identify the values of queries. I also didn't know that I could create a local url on my computer that I am able to edit. 
+
 
 
