@@ -18,6 +18,9 @@
     assertEquals(3, ArrayExamples.averageWithoutLowest(input2), 0);
   }
 ```
+## Output of running tests for averageWithoutLowest <br>
+![Image](testimage.png) <br>
+
 
 
 
