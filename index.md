@@ -235,9 +235,23 @@ angie@Angies-MacBook-Air-2 technical % grep -m 10 "a" biomed/rr74.txt
 ```
 The grep -m command allows you restrict the amount of lines to a certain number. In my examples, I'm finding the first 10 lines in "./technical/biomed/rr74.txt" that contain "e" and "a". This is useful for when you don't want to look through every instance of your input and only the first few lines as this makes searching easier and more efficient. 
 
+## grep -q
+```
+angie@Angies-MacBook-Air-2 technical % if grep -q "Angie" biomed/rr74.txt; then 
+    echo "Pattern found"
+else
+    echo "Pattern not found"
+fi
+Pattern not found
+```
+```
+angie@Angies-MacBook-Air-2 technical % if grep -q "intro" biomed/rr74.txt; then
+    echo "Pattern found"
+else
+    echo "Pattern not found"
+fi
+Pattern found
+```
+The grep -q command doesn't have any output, but acts as a boolean to determine whether there are any matching lines or not. In these examples, I used a script to print out whether or not the pattern existed by using the grep -q command. I tested it using an input I know doesn't exist (my name Angie) and one that I know does (intro) and got the correct results. This can be useful when making algorithms that depend on whether or not something is located within the file. 
 
-
-
-
-
-
+## I found all of these commands at https://phoenixnap.com/kb/grep-command-linux-unix-examples
