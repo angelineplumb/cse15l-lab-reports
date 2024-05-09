@@ -193,6 +193,21 @@ angie@Angies-MacBook-Air-2 technical % grep -v "a" biomed/rr74.txt
 ```
 The grep -v command allows us to find all text that *does not* include the given input. In these examples, I am showing all of the lines in the file "./technical/biomed/rr74.txt" where "e" and "a" do not occur. This is useful when trying to sort through text. 
 
+## grep -x
+```
+angie@Angies-MacBook-Air-2 technical % grep -x "        Introduction" biomed/rr74.txt
+
+        Introduction
+```
+```
+angie@Angies-MacBook-Air-2 technical % grep -x "        Conclusion" biomed/rr74.txt
+
+        Conclusion
+```
+The grep -x command allows you to only show lines that match the entire line. In these examples, the command is not showing every line that includes the input, but every line that equals the input. This is useful if you are trying to find the location of one line or seeing if an exact quote exists in the file. 
+
+
+
 
 
 
