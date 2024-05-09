@@ -206,6 +206,35 @@ angie@Angies-MacBook-Air-2 technical % grep -x "        Conclusion" biomed/rr74.
 ```
 The grep -x command allows you to only show lines that match the entire line. In these examples, the command is not showing every line that includes the input, but every line that equals the input. This is useful if you are trying to find the location of one line or seeing if an exact quote exists in the file. 
 
+## grep -m
+```
+angie@Angies-MacBook-Air-2 technical % grep -m 10 "e" biomed/rr74.txt
+        NO, which may be synthesized by any of the three
+        isoforms of NOS, is a vasodilator of the pulmonary
+        circulation in many mammals. NO has been proposed as a
+        modulator of vascular tone and structure in the pulmonary
+        circulation, and previous studies using NOS inhibitors [ 1,
+        2] suggested that inhibition of NO increases acute hypoxic
+        lead to development of pulmonary hypertension [ 3],
+        however, possibly because of a decrease in cardiac output.
+        These discrepancies have been addressed in recent studies
+        using mice that are deficient in NOS isoforms.
+```
+```
+angie@Angies-MacBook-Air-2 technical % grep -m 10 "a" biomed/rr74.txt
+        NO, which may be synthesized by any of the three
+        isoforms of NOS, is a vasodilator of the pulmonary
+        circulation in many mammals. NO has been proposed as a
+        modulator of vascular tone and structure in the pulmonary
+        circulation, and previous studies using NOS inhibitors [ 1,
+        2] suggested that inhibition of NO increases acute hypoxic
+        pulmonary vasoconstriction. Chronic NOS inhibition did not
+        lead to development of pulmonary hypertension [ 3],
+        however, possibly because of a decrease in cardiac output.
+        These discrepancies have been addressed in recent studies
+```
+The grep -m command allows you restrict the amount of lines to a certain number. In my examples, I'm finding the first 10 lines in "./technical/biomed/rr74.txt" that contain "e" and "a". This is useful for when you don't want to look through every instance of your input and only the first few lines as this makes searching easier and more efficient. 
+
 
 
 
