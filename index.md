@@ -10,7 +10,7 @@
 
 ## Step 7 <br>
 ![Image](open.png) <br>
-![Image](edit.png) <br>
+![Image](edited.png) <br>
 
 ## Step 8 <br>
 ![Image](test2.png) <br>
